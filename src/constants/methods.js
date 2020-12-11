@@ -1,4 +1,6 @@
-module.exports = {
-  GET: "GET",
-  POST: "POST",
+const method = {
+    GET: 'GET',
+    POST: 'POST',
 };
+
+module.exports = { method };
